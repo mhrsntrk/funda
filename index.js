@@ -9,6 +9,8 @@ propertyType: appartement or woonhuis
 searchLocation = den-haag,voorburg, etc.
 */
 
+console.log (`Application started at ${new Date()}`);
+
 //Runs at every hour minute 1 (i.e. 11:01)
 cron.schedule("1 * * * *", function() {
     console.log("Pulling the properties for rent and updating the DB...");
