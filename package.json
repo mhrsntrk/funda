@@ -1,0 +1,20 @@
+{
+  "name": "funda",
+  "version": "0.0.1",
+  "description": "Scrape funda.nl listings fits to the search criteria and store it to mongoDB and Notion",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mhrsntrk",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.4.9",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "got-scraping": "^3.2.6",
+    "mongodb": "^4.1.1",
+    "node-cron": "^3.0.0"
+  }
+}
