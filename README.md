@@ -1,6 +1,6 @@
 # OVERVIEW
 
-A simple Node.js application to scrape listings from Netherland's the biggest property listing website [funda.nl](https://funda.nl) and store them into mongoDB and Notion database. 
+A simple Node.js application to scrape listings from Netherlands's the biggest property listing website [funda.nl](https://funda.nl) and store them into mongoDB and Notion database. 
 
 # USAGE
 ### 1. Clone the repo and install dependencies
